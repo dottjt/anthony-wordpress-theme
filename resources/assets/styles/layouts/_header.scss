@@ -1,0 +1,51 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+
+.banner__container {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+
+  margin-bottom: 6rem;
+
+  .banner__card {
+    background: $header-background-color;
+    
+    height: 320px;
+  }
+
+  .banner__card__titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .banner__card__main__title {
+      text-decoration: none;
+      margin-top: 3rem;
+    }
+
+    .banner__card__line {
+      border-top: 1px solid #979797;
+    }
+
+    .banner__card__secondary__title {
+
+    }
+
+    .banner__card__logo {
+      position: absolute;
+      width: 165px;
+      height: 170px;
+    }
+
+  }
+
+}
+
